@@ -1,5 +1,5 @@
 .home-container {
-  min-height: 100vh;
+  min-height: 80vh;
   background: white; 
   color: black;
   display: flex;
@@ -14,22 +14,30 @@
 }
 
 .greeting {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
 }
 
 .highlight {
-  color: #ff1744;
+  color: #d40000;
+  font-weight: bold;
+  font-size: 3rem;
 }
 
+.large-name {
+  font-size: 2.4rem; /* Larger name */
+}
+
+
 .typing-intro {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 1.5rem;
   color: #035058;
 }
 
 .description {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 2rem;
   color: black;

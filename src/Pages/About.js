@@ -34,15 +34,14 @@ const About = () => {
           </h3>
 
           <p>
-            I'm a passionate frontend developer with a strong focus
-            on building responsive and user-friendly web applications using
-            React, JavaScript, and modern design principles.
+            I'm a passionate web developer with a strong focus on building responsive 
+            and user-friendly web applications using React, JavaScript, and modern 
+            design principles.
           </p>
           <p>
             Skilled in writing clean, maintainable code and collaborating with
             teams to bring ideas to life. My current tech stack includes
-            React.js, HTML5, CSS3, JavaScript, Git, GitHub, Tailwind CSS, and
-            AWS (basic).
+            React.js, HTML5, CSS3, JavaScript, Git, GitHub, and AWS (basic).
           </p>
           <p>
             Always eager to learn and grow, I enjoy contributing to meaningful
