@@ -5,7 +5,7 @@
 }
 
 .projects-section h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
   color: #e30707;
 }
@@ -29,6 +29,10 @@
 
 .project-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+  background-color: #f0f8ff; /* light highlight */
+  transform: translateY(-5px); /* slight lift */
+  transform: translateY(-8px);
 }
 
 .project-card h3 {

@@ -60,7 +60,7 @@
 }
 
 .about-info .highlight {
-  color: #e91e63;
+  color: #e00404;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -72,7 +72,7 @@
 }
 
 .download-btn {
-  background: #e91e63;
+  background: #e50303;
   color: white;
   padding: 10px 24px;
   border: none;
@@ -83,7 +83,7 @@
 }
 
 .download-btn:hover {
-  background: #c2185b;
+  background: #6c57f6;
 }
 
 /* Responsive */

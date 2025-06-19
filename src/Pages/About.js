@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import avatar from "../assets/img.png";
 import { ReactTyped } from "react-typed";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: false});
+  }, []);
+
   return (
-    <section className="about-section">
+    <section
+      className="about-section" data-aos="fade-up">
       <h2 className="section-title">About me</h2>
       <div className="section-subtitle">
         <span className="line"></span>
@@ -14,11 +21,11 @@ const About = () => {
       </div>
 
       <div className="about-wrapper">
-        <div className="about-img">
+        <div className="about-img" data-aos="zoom-in">
           <img src={avatar} alt="Avatar" />
         </div>
 
-        <div className="about-info">
+        <div className="about-info" data-aos="zoom-in">
           <h3>
             I am <span className="highlight">Mohammed Faizan</span> and I'm a{" "}
             <ReactTyped
@@ -34,9 +41,9 @@ const About = () => {
           </h3>
 
           <p>
-            I'm a passionate web developer with a strong focus on building responsive 
-            and user-friendly web applications using React, JavaScript, and modern 
-            design principles.
+            I'm a passionate web developer with a strong focus on building
+            responsive and user-friendly web applications using React,
+            JavaScript, and modern design principles.
           </p>
           <p>
             Skilled in writing clean, maintainable code and collaborating with
@@ -47,7 +54,9 @@ const About = () => {
             Always eager to learn and grow, I enjoy contributing to meaningful
             projects and improving the user experience across platforms.
           </p>
-          <a href="/resume.pdf" download className="btn download-btn">Download Resume</a>
+          <a href="/resume.pdf" download className="btn download-btn">
+            Download Resume
+          </a>
         </div>
       </div>
     </section>

@@ -43,7 +43,10 @@
 
 .skill-card:hover {
   transform: translateY(-5px);
+  border-color: #007bff;
+  background-color: #f0f8ff; /* light highlight */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px); /* slight lift */
 }
 
 .skill-card h3 {
