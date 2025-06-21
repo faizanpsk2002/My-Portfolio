@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Home.css";
+import "./index.css";
 import { ReactTyped } from "react-typed";
 import AOS from "aos";
 import "aos/dist/aos.css";
